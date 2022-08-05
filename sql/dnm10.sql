@@ -1,0 +1,3 @@
+DELETE FROM author
+WHERE   id>10
+RETURNING *;
